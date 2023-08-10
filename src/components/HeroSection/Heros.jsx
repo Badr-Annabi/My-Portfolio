@@ -119,7 +119,7 @@ const Img = styled.img`
 
 const Heros = () => {
   return (
-    <Section>
+    <Section id="home">
         
       <Container className="container header_container">
         <Left>
