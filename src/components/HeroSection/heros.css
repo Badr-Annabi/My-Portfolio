@@ -1,0 +1,19 @@
+/* ======== MEDIA QUERIES (MEDIUM DEVICES) ===========*/
+@media screen and (max-width:1024px) {
+    desc {
+        font-size: medium;
+    }
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+}
+
+/* ======== MEDIA QUERIES (SMALL DEVICES) ===========*/
+@media screen and (max-width:600px) {
+    .desc {font-size: small ;}
+    .header_socials,
+    .scroll_down {
+        display: none;
+    }
+}
