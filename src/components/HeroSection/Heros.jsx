@@ -1,11 +1,10 @@
 import React, { Suspense } from "react";
 import styled from "styled-components";
+import './heros.css';
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
-import {BsLinkedin} from 'react-icons/bs'
-import {FaGithub} from 'react-icons/fa'
-import {BsInstagram} from 'react-icons/bs'
-import CV from '../../assets/cv.pdf'
+import HeaderSocials from "./HeaderSocials";
+import CTA from "./CTA";
 
 const Section = styled.div`
   height: 100vh;
@@ -131,10 +130,8 @@ const Heros = () => {
           <Desc>
             I enjoy creating delightful, Web apps by using my knowledge and my skills.
           </Desc>
-            <div className='cta'>
-              <a href={CV} download className='btn'>Download CV</a>
-              <a href='#contact' className='btn btn-primary'> Let's Talk</a>
-            </div>
+            <CTA />
+            
         </Left>
         <Right>
           {/*3D MODEL */}
@@ -156,11 +153,9 @@ const Heros = () => {
           <Img src="./img/moon.png" />
         </Right>
         <a href='#contact' className='scroll_down'> Scroll Down</a>
-        <div className='header_socials'>
-        <a href='https://linkedin.com'rel="noreferrer" target='_blank'><BsLinkedin /></a>
-        <a href='https://github.com' rel="noreferrer" target='_blank'><FaGithub /></a>
-        <a href='https://dribble.com'rel="noreferrer" target='_blank'> <BsInstagram /></a>
-    </div>
+        
+        <HeaderSocials />
+    
       </Container>
       
     </Section>
