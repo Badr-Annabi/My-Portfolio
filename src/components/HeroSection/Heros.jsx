@@ -83,16 +83,7 @@ const Desc = styled.p`
   }
 `;
 
-const Button = styled.button`
-  background-color: #da4ea2;
-  color: white;
-  font-weight: 500;
-  width: 100px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-`;
+
 
 const Right = styled.div`
   flex: 3;
@@ -168,9 +159,9 @@ const Heros = () => {
         </Right>
         <a href='#contact' className='scroll_down'> Scroll Down</a>
         <div className='header_socials'>
-        <a href='https://linkedin.com' target='_blank'><BsLinkedin /></a>
-        <a href='https://github.com' target='_blank'><FaGithub /></a>
-        <a href='https://dribble.com' target='_blank'> <BsInstagram /></a>
+        <a href='https://linkedin.com'rel="noreferrer" target='_blank'><BsLinkedin /></a>
+        <a href='https://github.com' rel="noreferrer" target='_blank'><FaGithub /></a>
+        <a href='https://dribble.com'rel="noreferrer" target='_blank'> <BsInstagram /></a>
     </div>
       </Container>
       
