@@ -83,8 +83,6 @@ const Desc = styled.p`
   }
 `;
 
-
-
 const Right = styled.div`
   flex: 3;
   position: relative;
